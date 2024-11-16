@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-size: 50%;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #008cba;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.main-content {
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.drink-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    color: #008cba;
+}
+.main-content h3 {
+    font-size: 1.5rem;
+    color: #008cba;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #005f7f;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+}
+img{
+    height: 70%;
+    width: 70%;
+}
+h1, h2, h3{
+    font-family: impact;
+}
